@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: arial; 
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: #fefffc;
+  border-radius: 20px;
+  padding: 50px 25px 25px 50px;
+  margin: auto;
+  margin-top: 20px;
+  width: 40%;
+  z-index: 1;
+  box-shadow: 10px 10px 6px grey,  -10px 0px 5px grey;
+  
+}
+input[type=text], input[type=password], input[type=tel], select {
+  width: 100%;
+  padding: 10px;
+  margin: 6px;
+  margin-top: 0px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: rebeccapurple;
+  color: white;
+  padding: 10px;
+  margin: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: purple;
+  color: black;
+}
+

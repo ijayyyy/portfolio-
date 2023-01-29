@@ -1,0 +1,125 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+  margin: 0;
+  background-color: white;
+}
+* { 
+  box-sizing: border-box;
+}
+/* header style */
+.header {
+  padding: 50px;
+  text-align: center;
+  background-color: purple;
+  color: ghostwhite;
+  margin: auto;
+}
+/* style the nav bar */
+.navbar {
+  display: flex;
+  background-color: black;
+  flex-direction: row-reverse;
+  
+}
+/* style the nav links */
+.navbar a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  border-left: 1px solid purple;
+  
+  
+}
+/* change color on hover */
+.navbar a:hover:not(.active) {
+  background-color: grey;
+  color: black;  
+}
+.active {
+  background-color: rebeccapurple;
+}
+/* style row */
+.column1 {
+  display: flex;
+  flex-direction: row;   
+}
+/* divide row into two unequal part */
+.c1content {
+  flex: 70%;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+/* style h2 */
+h2 {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+/* style image container */
+.imgcontainer {
+  flex: 30%;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 50px 0px 0px 70px;
+  width: 360px;
+  height: 525px;
+  box-shadow: -10px -0px 20px  grey inset;
+}
+.img {
+  width: 350px;
+  height: 500px;
+}
+/* style first container for the form */
+.container {
+  background-color: grey;
+  border-radius: 10px;
+}
+/* style second container to center the form */
+.container2 {
+  padding: 25px;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+ /* style form */
+  input[type=text], select, textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0px;
+    background-color: white;
+    border: 1px solid black;
+    border radius: 3px;
+  }
+input[type=submit] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 7px;
+  border: 1px solid black;
+  border-radius: 4px; 
+}
+input[type=submit]:hover{
+  background-color: grey;
+  color: black;
+}
+/* style footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+  
+
+
+ 

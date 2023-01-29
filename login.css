@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  font-family: arial;
+}
+/* style container for log in page */
+.container{
+  padding: 50px;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 25px;
+  display: inline-block;
+  margin: 15px;  
+}
+button {
+  width: 100%;
+  background-color: #E74040;
+  color: white;
+  padding: 14px;
+  margin: 15px;
+  border: none;
+  cursor: pointer;
+} 
+button:hover {
+  opacity: 0.9;
+  transition-delay: 0.15s;
+  color: black;
+}
+/* style image container */
+.imgcontainer {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+.imgphoto {
+  border-radius: 50%;
+  width: 10%;
+  opacity: 0.5;
+} 
+/* style forgot password button */
+.fpsw {
+  float: right;
+  text color: blue;
+}
+
